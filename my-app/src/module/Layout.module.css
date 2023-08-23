@@ -1,0 +1,16 @@
+.header{
+display: flex;
+    height: 70px;
+    background-color: rgb(23, 124, 175);
+    color: rgb(244, 238, 237);
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+} 
+
+
+.content-section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+}
