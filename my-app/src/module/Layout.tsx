@@ -1,6 +1,6 @@
 import GlobalNav from "./GlobalNav";
 import style from "./Layout.module.css"
-import {NavLink} from "react-router-dom"
+import {NavLink,Outlet} from "react-router-dom"
 const Layout = () => {
   return <>
 <article className={style.header}>
@@ -14,8 +14,11 @@ const Layout = () => {
      </header>
 </article>
 <section className={style["content-section"]}>
-    < GlobalNav />
-   <div>This is Section</div> 
+    < GlobalNav /> 
+<main>
+  <Outlet />
+</main>
+   
 </section>
   </>;
 };

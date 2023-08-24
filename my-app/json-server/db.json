@@ -1,0 +1,40 @@
+{
+  "music": [
+    {
+      "title": "kotebula",
+      "name": "Kekiyya",
+      "musicFile": "hosaa",
+      "id": 1
+    },
+    {
+      "title": "holy",
+      "name": "justin",
+      "musicFile": "theirow",
+      "id": 2
+    },
+    {
+      "title": "Abebayehosh",
+      "name": "Tedy Afro",
+      "musicFile": "morpter",
+      "id": 3
+    },
+    {
+      "title": "Bob",
+      "name": "Boby ",
+      "musicFile": "file",
+      "id": 4
+    },
+    {
+      "title": "comon",
+      "name": "fayisa",
+      "musicFile": "furiiii",
+      "id": 5
+    },
+    {
+      "title": "Kotume",
+      "name": "btrom",
+      "musicFile": "theo",
+      "id": 6
+    }
+  ]
+}

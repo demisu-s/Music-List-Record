@@ -1,7 +1,10 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-
+import musicReducer from '../module/music/MusicSlice'
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+         music:musicReducer
+
+  },
 });
 
 export type AppDispatch = typeof store.dispatch;
